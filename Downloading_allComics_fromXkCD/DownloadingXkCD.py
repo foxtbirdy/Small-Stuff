@@ -1,5 +1,8 @@
 import requests , os , bs4
 
+# Please note that the code can be found on the Al Sweigart's book called
+# Automate the boring stuff with python
+
 url = "http://xkcd.com"
 os.makedirs("xkcd" , exist_ok = True)
 
