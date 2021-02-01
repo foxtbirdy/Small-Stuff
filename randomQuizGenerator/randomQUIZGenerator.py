@@ -60,10 +60,12 @@ for randomQuiz in range(35):
    quizFile.write("Name:\n\nDate:\n\nPeriod:\n\n")
    quizFile.write((' ' * 25) + 'State Capitals Quiz (Form %s)' % (randomQuiz + 1))
    quizFile.write("\n\n")
-
+   
+   
+########## HEADER CONFIG #############
    states = list(capitals.keys())
    random.shuffle(states)
-
+   
    for questionNum in range(50):
       correctAnswer = capitals[states[questionNum]]
       wrongAnswer = list(capitals.values())
