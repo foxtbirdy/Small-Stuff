@@ -4,7 +4,7 @@ print("ENTER to Begin. Afterwards, press ENTER to 'click' the stopwatch.Press Ct
 input()
 print("Started")
 startTime = time.time()
-lastTime = startTime
+lastTime = startTime	
 lapNum = 1
 
 try:
@@ -17,5 +17,6 @@ try:
 		lastTime = time.time()
 except KeyboardInterrupt:
 	print("\nDone")
-	
+
+
 # Indent size is 8
