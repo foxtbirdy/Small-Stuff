@@ -16,4 +16,6 @@ try:
 		lapNum += 1
 		lastTime = time.time()
 except KeyboardInterrupt:
-		print("\nDone")
+	print("\nDone")
+	
+# Indent size is 8
