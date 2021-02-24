@@ -62,8 +62,11 @@ def encrypt(user_int):
 	
 	for letters in user_int:
 		if (letters != " "):
+			
+			## MAIN FORMULA!! ##
 			number = (data_1[letters] - 13 + 26) % 26
 			result += data_2[number]
+			
 		else:
 			result += " "
 	print(result)
@@ -71,13 +74,8 @@ while True:
 	user_int = input("Encode => ")
 	encrypt(user_int)
 
-#	result = ''
-#	for letters in actual:
-#		if (letters != " "):
-#			value = (data_1[actual] + changed) % 26
-#			result += data_2[value]
-#		else:
-#			result += " "
-#		print(result)
+
+
+
 
 
