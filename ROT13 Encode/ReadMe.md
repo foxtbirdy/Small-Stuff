@@ -12,3 +12,9 @@ Basic Tutorial - [GeekforGeeks](https://www.geeksforgeeks.org/rot13-cipher/)
 
 Please note that any numerical letters or any non-alphabets can interrupt the program.</br>
 These letters are not part of the ROT13
+
+
+<h3><b>! Important Log !</b></h3>
+The python solution of this code is not fully reliable. 
+Expect a change shortly.
+If not, Please state a Issue and I try to have a look at it.
