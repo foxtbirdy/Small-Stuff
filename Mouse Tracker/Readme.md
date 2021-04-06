@@ -16,5 +16,4 @@ pip install pyautogui
  
  ## NOTICE ⚠️
  PyAutoGUI is a very powerful and a very risky computer. \
- Please refer to the PyAutoGUI Docs referenced above to avoid unnecessary havor on your machine! 
-
+ Please refer to the PyAutoGUI Docs referenced above to avoid unnecessary harm on your machine! 
