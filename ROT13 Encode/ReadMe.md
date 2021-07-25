@@ -1,4 +1,4 @@
-## ABOUT THE ROT13 ENCRYPTION CIPHER
+## ABOUT THE ROT13 ENCRYPTION CIPHER [dev. halted]
 The ROT13 is a program {<i>originally C++</i>} that is used to encode alphabetically. It's only work is to "rotate" the letters by 13.</br>
 Live DEMO 🔽
 ![Alt Text](https://github.com/Code-Blender-7/Small_Projects__01/blob/main/ROT13%20Encode/Images_for_ReadME.md/Screenshot%202021-02-24%20215938.png?raw=true)
