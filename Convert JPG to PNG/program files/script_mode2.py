@@ -2,12 +2,14 @@
 # @Author: Climax
 # @Date:   2021-11-03 19:59:47
 # @Last Modified by:   Climax
-# @Last Modified time: 2021-11-05 12:50:51
+# @Last Modified time: 2021-11-07 09:10:07
 
 import os
 import sys
 import PIL
 from PIL import Image
+import time
+
 
 files_detected = 0  # files that are found
 files_converted = 0  # files that are converted
@@ -18,14 +20,17 @@ target_directory = os.listdir(
     os.path.dirname(sys.argv[0])
 )  # address to script's directory
 
-saved_img_folder = "Converted Images"
 
+print("Script developed by @Black_2_white. Visit my github for more!!")
 
 ##############################################################################################33
 ########################################################
 
 
 def saving_images(target_file):
+    global files_converted
+    files_converted += 1
+
     print("File converting => ", target_file)
     img = Image.open(target_file)
     img.save(f"{os.path.splitext(target_file)[0]}.png")
@@ -45,24 +50,28 @@ def delete_file(target_file):
         os.remove(target_file)
 
 
-for file in target_directory:
-    try:
-        files_detected += 1
-        if file == os.path.basename(
-            sys.argv[0]
-        ):  # we don't want our file to get edited
-            pass
-        elif os.path.splitext(file)[1] != ".jpg":  # check if it's a jpg
-            files_skipped += 1
-            pass
-        elif os.path.splitext(file)[1] == ".jpg":
-            files_converted += 1
-            saving_images(target_file=file)
-            save_log(file)
+while True:
+    user_approval = input("Execuete program(y/n)? \n>")
+    if user_approval == "y":
+        for file in target_directory:
+            try:
+                files_detected += 1
+                if os.path.splitext(file)[1] != ".jpg":  # check if it's a jpg
+                    files_skipped += 1
+                    pass
+                elif os.path.splitext(file)[1] == ".jpg":
 
-    except PIL.UnidentifiedImageError:  # exception for corrupted image
-        print("File", file, "failed to convert")
-        files_corrupted += 1
-        pass
-
-    delete_file(file)
+                    saving_images(target_file=file)
+                    save_log(file)
+            except PIL.UnidentifiedImageError:  # exception for corrupted image
+                print("File", file, "failed to convert")
+                files_corrupted += 1
+                pass
+            delete_file(file)
+        break
+    elif user_approval == "n":
+        print("Program aborted")
+        time.sleep(3)
+        break
+    else:
+        print("Invalid response")
