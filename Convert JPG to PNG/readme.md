@@ -32,15 +32,15 @@ Colons can be used to align columns.
 
 | Name of the Varient        | Functions                 | 
 | -------------------------- | ------------------------  |
-| script_mode1.py            | ✅Converts JPG to PNG</br>✅Creates a script log</br>✅Keeps the original files</br>✅Creates a new folder to keep the converted files</br>❌Requires authorization of action |
-| script_mode2.py            | ✅Converts JPG to PNG</br>✅Creates a script log</br>❌Keeps the original files</br>❌Creates a new folder to keep the converted files</br>✅Requires authorization of action |
+| [script_mode1.py](https://github.com/Code-Blender-7/Small_Projects__01/blob/main/Convert%20JPG%20to%20PNG/program%20files/script_mode1.py)            | ✅Converts JPG to PNG</br>✅Creates a script log</br>✅Keeps the original files</br>✅Creates a new folder to keep the converted files</br>❌Requires authorization of action |
+| [script_mode2.py](https://github.com/Code-Blender-7/Small_Projects__01/blob/main/Convert%20JPG%20to%20PNG/program%20files/script_mode2.py)           | ✅Converts JPG to PNG</br>✅Creates a script log</br>❌Keeps the original files</br>❌Creates a new folder to keep the converted files</br>✅Requires authorization of action |
 
 
 ##Requirments
 
-1. Python (*latest version*)
+1. Python [(*latest version*)](https://www.python.org/)
 
-2. PIL Library - (*install instructions*)
+2. PIL Library - [(*install instructions*)](https://blog.finxter.com/python-install-pil/)
 
 
 # Frequent Asked Questions (FAQ)
@@ -68,7 +68,7 @@ You can stop the file by using the keydownInterrupt error.
 ```
 6. I accidently moved a bunch of new images on the folder where the script is currently converting. Will this program crash?
 ```
-Possibly no. It converts the file in a from top to bottom. Possibly the file would get converted while the script is working. But the program may not crash. If does, please open up a new issue!
+Possibly no. It converts the files in a folder from top to bottom. Possibly the file would get converted while the script is working. But the program may not crash. If does, please open up a new issue!
 ```
 
 
