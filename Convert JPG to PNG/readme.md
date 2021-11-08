@@ -28,7 +28,7 @@ There are two varients of the program -
 
 ### Here is a table for the summary of the varient's feature -
 
-Colons can be used to align columns.
+
 
 | Name of the Varient        | Functions                 | 
 | -------------------------- | ------------------------  |
