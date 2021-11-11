@@ -2,6 +2,8 @@
 
 The *'Convert to JPG to PNG'* is a simple python based program that uses the Python Imagining Library(**PIL**) to convert any JPG in a single folder and turn them into a PNG format. 
 
+### Check out the live-demo on [Twitter](https://twitter.com/Black_2_white/status/1458048576307617794)
+
 This program is a highly versitile because it is developed to work in any kind of folder without making direct changes to the script's code.
 
 The best feature of this program is that it is a **single click-open** action. Meaning that it doesn't need the location of a folder, any parameter or input. The program has the feature of converting **all the files at once** meaning that you don't need to keep selecting one file, convert it and and repeat again and again.
@@ -14,7 +16,7 @@ Just clicking on the program gets the job done.
 
 
 
-##Varients of the Program - 
+## Varients of the Program - 
 When I was reseaching and developing the software, I realized that creating multiple versions of the program can aid in the use of this software in your day-to-day life. 
 
 There are two varients of the program - 
