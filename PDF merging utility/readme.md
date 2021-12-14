@@ -3,7 +3,7 @@
 
 ### Introduction -
 
-A simple utility tool written in python that allows others to merge the contents of two or more pdf files into 1 super pdf file. 
+A simple utility tool written in python that allows others to merge the contents of two or more pdf files of a folder into 1 super pdf file. 
 
 
 ### Caution -
@@ -24,5 +24,10 @@ pip install PyDF2
 click [here](https://pypi.org/project/PyPDF2/) for more details regarding the PyPDF2 library.
 
 
+### Remarks
 
-**SCRIPT DEVELOPED BY [@Black_2_white]**
+the utility software was just an idea i got while exploring random python libraries. Of course that there are other ways to improve the software for more "complex" usage. However, since this is only a test program with little importance. I decided to "not" upgrade the software for the time-being. </br>
+However, if you find this software useful then hit me up on twitter and I gladly appreciate it. Thanks.
+
+
+**SCRIPT DEVELOPED BY [@Black_2_white](https://twitter.com/Black_2_white)**
