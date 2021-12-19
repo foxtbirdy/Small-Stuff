@@ -1,28 +1,21 @@
 ## Python PDF merging utility
 
 
-### Introduction -
+### Introduction
 
 A simple utility tool written in python that allows others to merge the contents of two or more pdf files of a folder into 1 super pdf file. 
 
 
-### Caution -
+### Requirements
 
-Running this software requires python and PyPDF2 library.
+1. Python [(*See latest version here*)](https://www.python.org/downloads/)
+2. PyPDF2 [(*See how to install it here*)](https://pypi.org/project/PyPDF2/)
 
+### Usage
 
-Install the latest version of python [here](https://www.python.org/downloads/)
-
-*Guide to install PyPDF2 - *
-
-```
-
-pip install PyDF2
-
-```
-
-click [here](https://pypi.org/project/PyPDF2/) for more details regarding the PyPDF2 library.
-
+1. Download the project folder from DownGit [here](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2FCode-Blender-7%2FSmall_Projects__01%2Ftree%2Fmain%2FPDF%20merging%20utility).
+2. Extract PDF_merger.py to your folder where you want to merge the PDFs.
+3. Run PDF_merger.py.
 
 ### Remarks
 

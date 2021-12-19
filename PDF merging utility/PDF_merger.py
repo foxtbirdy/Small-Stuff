@@ -2,15 +2,17 @@
 # @Author: Climax
 # @Date:   2021-12-14 01:36:40
 # @Last Modified by:   Climax
-# @Last Modified time: 2021-12-14 21:39:54
+# @Last Modified time: 2021-12-19 22:44:54
 
 import PyPDF2 
 import sys
 import os 
-
+import time
 
 target_directory = os.listdir(os.path.dirname(sys.argv[0])) # select script files
 target_files = []
+
+
 
 # validate all the files and find exceptional
 for file in target_directory:
@@ -29,6 +31,10 @@ def pdf_combiner(pdf_list, super_file_name):
 # confirm the user the files that are about to be edited
 def main(pdf_list):
 	while True:
+		if len(pdf_list) < 1:
+			print("No PDF files in this folder were to merge.")
+			time.sleep(4)
+			break
 		merged_file_name = f'{input("Enter merged file name: ")}.pdf'
 		user_input = input(f"A total of {len(pdf_list)} will be merged in '{merged_file_name}'. Do you wish to merge them(y/n)? > ")
 		if user_input == "y":
