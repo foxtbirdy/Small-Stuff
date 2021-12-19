@@ -1,4 +1,18 @@
-# Introduction
+# Small_Projects__01/Convert JPG to PNG
+
+## Table of Contents
+
+1. [Introduction](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#introduction)
+2. [Live Demo](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#check-out-the-live-demo-on-twitter)
+3. [Varients of the program](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#varients-of-the-program--)
+	1. [Summary of the varients of the program](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#varients-of-the-program--)
+4. [**REQUIREMENTS**](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#requirments)
+5. [**USAGE**](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#usage)
+6. [FAQ](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#frequent-asked-questions-faq)
+6. [Testing Version](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#version--os)
+7. [Final Remarks](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#final-remarks)
+
+## Introduction
 
 The *'Convert to JPG to PNG'* is a simple python based program that uses the Python Imagining Library(**PIL**) to convert any JPG in a single folder and turn them into a PNG format. 
 
@@ -16,7 +30,7 @@ Just clicking on the program gets the job done.
 
 
 
-## Varients of the Program - 
+## Varients of the Program -
 When I was reseaching and developing the software, I realized that creating multiple versions of the program can aid in the use of this software in your day-to-day life. 
 
 There are two varients of the program - 
@@ -45,7 +59,15 @@ There are two varients of the program -
 2. PIL Library - [(*install instructions*)](https://blog.finxter.com/python-install-pil/)
 
 
-# Frequent Asked Questions (FAQ)
+## Usage
+
+1. Download the folder from Downgit [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Code-Blender-7/Small_Projects__01/tree/main/Convert JPG to PNG) <br>
+2. Navigate to root/programFiles/ <br>
+3. extract one of the two modes to the folder of the JPG images you wish to convert. <br>
+
+
+
+## Frequent Asked Questions (FAQ)
 
 1. What can this script file really do?
 ```
@@ -61,7 +83,8 @@ LMAO, Of course not. It has already been tested. The program cannot infect other
 ```
 4. I am using a mac. Will it work in there?
 ```
-I never used mac yet. But I doubt that it won't work. Because the program depends on the python File I.O which is the same for all OS systems.
+I never used mac yet. But I doubt that it won't work. 
+Because the program depends on the python File I.O which is the same for all OS systems.
 Therefore, the program should not crash.
 ```
 5. The file is running. How do I stop it?
@@ -80,10 +103,19 @@ You need to alter the code by changing all .png on the saving_images function in
 Please be careful while doing so.
 ```
 
-# Finally remarks -
+
+### Version + OS
+
+The program was tested and developed on Python Version 3.9.6 in Windows 10.
+
+
+
+## Final remarks
 
 *Convert JPG to PNG* is a open sourced python program developed by [@Black_2_white](https://twitter.com/Black_2_white). This program has no collaborator. </br>
 You can use it for you're own learning and for you're own application development. </br>
 However, you may not claim this program and the script code as you are the original owner. Please respect the author's credibility and the authenticity of the program's origin. </br>
 
-⚠The author doesn't claim any responsibility if the script has caused damages. Please test it if you have changed the behavior of the code. 
+
+⚠ The author doesn't claim any responsibility if the script has caused damages. Please test it if you have changed the behavior of the code. ⚠
+
