@@ -2,15 +2,15 @@
 
 ## Table of Contents
 
-1. [Introduction](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#introduction)
-2. [Live Demo](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#check-out-the-live-demo-on-twitter)
-3. [Varients of the program](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#varients-of-the-program--)
-	1. [Summary of the varients of the program](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#varients-of-the-program--)
-4. [**REQUIREMENTS**](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#requirments)
-5. [**USAGE**](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#usage)
-6. [FAQ](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#frequent-asked-questions-faq)
-6. [Testing Version](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#version--os)
-7. [Final Remarks](file:///C:/Users/Ahnaf/appdata/local/temp/13.html#final-remarks)
+1. [Introduction](https://github.com/Code-Blender-7/Small_Projects__01/tree/main/Convert%20JPG%20to%20PNG#introduction)
+2. [Live Demo](https://github.com/Code-Blender-7/Small_Projects__01/tree/main/Convert%20JPG%20to%20PNG#check-out-the-live-demo-on-twitter)
+3. [Varients of the program](https://github.com/Code-Blender-7/Small_Projects__01/tree/main/Convert%20JPG%20to%20PNG#varients-of-the-program--)
+	1. [Summary of the varients of the program](https://github.com/Code-Blender-7/Small_Projects__01/tree/main/Convert%20JPG%20to%20PNG#here-is-a-table-for-the-summary-of-the-varients-feature--)
+4. [**REQUIREMENTS**](https://github.com/Code-Blender-7/Small_Projects__01/tree/main/Convert%20JPG%20to%20PNG#requirments)
+5. [**USAGE**](https://github.com/Code-Blender-7/Small_Projects__01/tree/main/Convert%20JPG%20to%20PNG#usage)
+6. [FAQ](https://github.com/Code-Blender-7/Small_Projects__01/tree/main/Convert%20JPG%20to%20PNG#frequent-asked-questions-faq)
+6. [Testing Version](https://github.com/Code-Blender-7/Small_Projects__01/tree/main/Convert%20JPG%20to%20PNG#version--os)
+7. [Final Remarks](https://github.com/Code-Blender-7/Small_Projects__01/tree/main/Convert%20JPG%20to%20PNG#final-remarks)
 
 ## Introduction
 
@@ -61,9 +61,9 @@ There are two varients of the program -
 
 ## Usage
 
-1. Download the folder from Downgit [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Code-Blender-7/Small_Projects__01/tree/main/Convert JPG to PNG) <br>
-2. Navigate to root/programFiles/ <br>
-3. extract one of the two modes to the folder of the JPG images you wish to convert. <br>
+1. Download the folder from Downgit [here](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2FCode-Blender-7%2FSmall_Projects__01%2Ftree%2Fmain%2FConvert%20JPG%20to%20PNG). 
+2. Navigate to root/programFiles/ 
+3. extract one of the two modes to the folder of the JPG images you wish to convert. 
 
 
 
@@ -96,11 +96,6 @@ You can stop the file by using the KeydownInterrupt error.
 Possibly no. It converts the files in a folder from top to bottom. 
 Possibly the file would get converted while the script is working. But the program may not crash. 
 If does, please open up a new issue!
-```
-7. I want to select another format to convert to. How can I do that?
-```
-You need to alter the code by changing all .png on the saving_images function into the format of your choice. 
-Please be careful while doing so.
 ```
 
 
