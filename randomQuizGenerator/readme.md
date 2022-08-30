@@ -14,8 +14,8 @@ The Question files are located in the Question Folder while the Answer files are
 The folders would be automatically created on the current folder directory where the program was ran
 
 
-You can download the project files [here] using DownGit.(https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2FCode-Blender-7%2FSmall_Projects__01%2Ftree%2Fmain%2FRGBA%20Finder)
-
+You can download the project files [here](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2FCode-Blender-7%2FSmall_Projects__01%2Ftree%2Fmain%2FRGBA%20Finder)
+ using DownGit.
 ## Credits -
 
 Instructor : Ai Stregart
