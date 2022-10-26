@@ -2,7 +2,7 @@
 # @Author: Climax
 # @Date:   2021-11-03 19:59:47
 # @Last Modified by:   Climax
-# @Last Modified time: 2022-10-26 20:13:33
+# @Last Modified time: 2022-10-27 03:57:28
 
 import os
 import sys
@@ -14,55 +14,63 @@ import time
 import datetime
 
 
-now = datetime.datetime.now()
-UserInput = input("Enter your directory here: ")
-
-
-
-# folder with the current date
-saving_dir_default = f"{UserInput}/Converted[{now.strftime('%Y-%m-%d(%H.%M hours)')}]"
-
-
-
-def saving_images(file , saving_dir):
+def saving_images(file_list , saving_dir):
     """
-    saving the file image
+    saves file image from a given directory.
     """
-    
-    img = Image.open(f"{UserInput}/{file}")
-    img.save(f"{saving_dir}/{file}.png")
-    print(f"[green]File converted[/] => {file}")
+    for file in file_list:
+        img = Image.open(f"{target_dir}/{file}")
+        img.save(f"{saving_dir}/{file}.png")
+        print(f"[green]File converted[/] => {file}")
 
 
+def scan_dir(target_dir):
+    """
+    scan of the directory + validation for script runtime
+    """
 
-
-def script_Runtime():
+    # restart the values
     selectedFiles = []
-    for file in os.listdir(UserInput): # probe to given directory
-        if os.path.splitext(file)[1] != ".jpg":  # check if it's a jpg
-            pass
-        else:
+    files_selected = 0
+    files_skipped = 0
+    files_detected = 0
+
+    for file in os.listdir(target_dir):
+        files_detected+=1
+        if os.path.splitext(file)[1] == ".jpg":  # check if it's a jpg
             selectedFiles.append(file)
+            files_selected+=1
+        else: # file is not jpg, then skip
+            files_skipped+=1
+            pass
 
+    print(f"total selected files: {files_selected}")
+    print(f"total skipped files: {files_skipped}")
+    print(f"total detected files: {files_detected}")
 
+    return selectedFiles
+
+def script_Runtime(target_dir):
     userChoice = input("\nCreate a new directory? [y/n]: ")
-    if userChoice.lower() == "n":
-        os.makedirs(saving_dir_default) # creating a new directory
-        for file in selectedFiles:
-            saving_images(file, saving_dir_default)
-    elif userChoice.lower() == "y":
-        print("[cyan]This is not built yet")
+
+    if userChoice.lower() == "n": # save all files on the target directory
+        saving_images(scan_dir(target_dir), saving_dir=target_dir)
+        print(f"Files saved at [i][blue]{target_dir}[/]")
+
+    elif userChoice.lower() == "y": # save all files on a new given directory
+        saving_dir = input("Enter new directory for saving files: ")
+        os.makedirs(saving_dir)
+        saving_images(scan_dir(target_dir), saving_dir)
 
 
-script_Runtime()
 
 
+while True:
+    target_dir = input("Enter your directory here: ")
+    if len(scan_dir(target_dir)) == 0: # if length of selected files is 0, continue loop.
+        print("[red]Warning: No images found to convert to png[/]\n[yellow]Try Again.[/]")
+    elif len(scan_dir(target_dir)) > 0: # if length of selected files is not 0, break loop after saving
+        print("[green]Images found")
+        script_Runtime(target_dir)
+        break
 
-"""
-LOGIC
-
-program takes main directory input file converting
-program turns all files into png.
-
-
-"""
