@@ -1,6 +1,3 @@
-# Small_Projects__01
-This Repository is where several rejected and non-rejected project plan ideas and their source code are released. Many of this files are done in a variety of different frameworks and programming languages.
-This Reposity is created to store potential future projects that may / may not be developed in the later days.
+# Description
 
-
-<i>THIS REPO IS STILL UNDER BUILT AS READING</i>
+Small-Stuff is a collection of my utilities tools that have been released as public open sourced code. I use this project repository as a method to store all these small code files that I have written.
